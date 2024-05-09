@@ -1,0 +1,133 @@
+*{
+    background-color: white;
+}
+ .conatiner{
+    display: flex;
+    height: 60px;
+    /* margin: 10px; */
+    top: 0;
+    /* align-items: center; */
+    /* background-color: red; */
+    border-radius: 2px solid black;
+ }
+.header{
+    display: flex;
+    position:absolute;
+    align-items:center;
+    justify-content: space-between;
+}
+.header >:nth-child(1){
+    margin:3px;
+    padding: 4px;
+}
+.header >:nth-child(2){
+    margin:4px;
+    padding: 4px;
+}
+.header >:nth-child(3){
+    margin:4px;
+    padding: 4px;
+}
+.header >:nth-child(5){
+    top: 0;
+     
+}
+input{
+    display: flex;
+    /* background-color: #eceff7; */
+    /* margin: 0px 0px 7px 125px; */
+    width: 81vw;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: 3px solid blue;
+}
+input img{
+    /* align-items:end; */
+    justify-content: end;
+}
+.header > :nth-child(5){
+    top: 0;
+    align-items: end;
+    justify-content: end;
+}
+input img{
+    /* margin: 50px 40px 60px 66px; */
+    display: flex;
+    color: blue;
+}
+.Google{
+    display: flex;
+    justify-content:center;
+    /* height: 80vh; */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: aquamarine; */
+}
+#Search{
+    display: flex;
+    flex-direction: row;
+}
+.Google input{
+
+    display: flex;
+    /* background-color: #eceff7; */
+    /* margin: 0px 0px 7px 125px; */
+    width: 40vw;
+    padding: 10px;
+    justify-content:end;
+    border-radius: 30px;
+    border: 3px solid blue;
+}
+.Google img{
+    background: none;
+}
+/* #Search{
+    position: absolute;
+    top: 72vh;
+    left: 30vw;
+} */
+.Box{
+    /* padding: 20px 30px 40px 50px ; */
+    /* background-color: aqua; */
+    height: 20vh;
+    width: 43vw;
+    display: flex;
+    /* flex-direction: row; */
+    /* position: absolute; */
+    gap: 78px;
+   /* border: 2px solid red; */
+    border-radius: 7px;
+    justify-content: center;
+   align-items: center; 
+
+
+}
+.boxes{
+    height: 50px;
+    width: 50px;
+    background-color: #e1e3e1;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content:center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.main { 
+    display: inline-block;
+    justify-content:center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heding{
+    text-align: end;
+    position: relative;
+    top: 20px;
+}
+.add :nth-child(1){
+    background-color: #d3e3fd;
+}
